@@ -1,63 +1,147 @@
 [
     {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "GHI9, JKL8, NPO7, RST6, _____",
+        "topic": "Family tree logic",
+        "question": "Rajesh points to a man and says, \"He is the only son of my mother\u2019s sister.\" How is the man related to Rajesh?",
         "choices": [
-            "A) A) VWX5",
-            "B) B) UVW5",
-            "C) C) XYZ5",
-            "D) D) WVU5"
+            "A) Uncle",
+            "B) Brother",
+            "C) Cousin",
+            "D) Nephew"
         ],
-        "answer": "B",
-        "explanation": "The first letters advance by 3, then 4, then 3, suggesting the next increment should be 4; thus UVW. Numbers decrease by 1 each time."
+        "answer": "C",
+        "explanation": "The only son of Rajesh's mother's sister is his cousin."
     },
     {
         "topic": "Family tree logic",
-        "question": "Raj points to a man and says, \u201cHe is the brother of my mother\u2019s only daughter.\u201d How is the man related to Raj?",
+        "question": "Rahul points to a man and says, \"He is the brother of my mother.\" How is the man related to Rahul?",
         "choices": [
             "A) A) Uncle",
-            "B) B) Brother",
-            "C) C) Father",
-            "D) D) Cousin"
+            "B) B) Father",
+            "C) C) Cousin",
+            "D) D) Brother"
         ],
-        "answer": "C",
-        "explanation": "Raj's mother's only daughter is Raj himself. Hence, the man is Raj's father."
+        "answer": "A",
+        "explanation": "The brother of Rahul's mother is Rahul's uncle."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All cats are dogs; Statement II: No dog is a bird; Statement III: All birds are fish; Conclusions I: No cat is a fish; Conclusion II: Some fish are cats",
+        "choices": [
+            "A) A) If only conclusion I follows",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "A",
+        "explanation": "Since all cats are dogs and no dog is a bird, then no cat can be a fish. The second conclusion contradicts this."
     },
     {
         "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "In a circular arrangement, five friends A, B, C, D, E sit around a table. A sits opposite B, C is to the immediate right of A, and D is between C and E. Who is sitting second to the right of the person opposite E?",
+        "question": "In a circular arrangement, 5 friends - Alice, Bob, Carol, Dave, Eve - sit around a table. If Alice sits next to Bob and Dave sits opposite Carol, who is sitting between Alice and Dave?",
         "choices": [
-            "A) A) A",
-            "B) B) B",
-            "C) C) C",
-            "D) D) D"
+            "A) Bob",
+            "B) Carol",
+            "C) Eve",
+            "D) Bob"
         ],
-        "answer": "C",
-        "explanation": "A is opposite B, C is right of A, D is between C and E. Thus, clockwise: A-C-D-E-B. Opposite E is A, second right of A is C."
+        "answer": "D",
+        "explanation": "Alice sits next to Bob, and Dave sits opposite Carol. This means Eve must sit between Alice and Dave."
     },
     {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "AB2, CD4, EF6, GH8, _____",
+        "topic": "Syllogisms",
+        "question": "Statement I: All books are pens Statement II: Some pens are pencils Statement III: All pencils are erasers Conclusions I: Some erasers are books Conclusion II: Some pens are erasers",
         "choices": [
-            "A) A) IJ10",
-            "B) B) HI10",
-            "C) C) JK9",
-            "D) D) LM11"
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
         ],
-        "answer": "A",
-        "explanation": "The first two letters advance alphabetically by one pair each time. The numbers double every two terms. Thus, the next term is IJ10."
+        "answer": "B",
+        "explanation": "Pens are connected to both books and erasers but no direct link from books to erasers exists."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Five friends A, B, C, D, and E sit in a row facing north. A sits next to B but not next to C. D is between B and E. Who is sitting second to the right of the person sitting third from the left?",
+        "choices": [
+            "A) A) C",
+            "B) B) D",
+            "C) C) B",
+            "D) D) E"
+        ],
+        "answer": "C",
+        "explanation": "The seating order is C-A-B-D-E. Third from the left is B. Second to B's right is D."
     },
     {
         "topic": "Family tree logic",
-        "question": "Raj says, \"He is the son of my father's only sibling.\" How is Raj related to him?",
+        "question": "Rahul points to a man and says, \u201cHe is the brother of my mother\u2019s only daughter.\u201d How is the man related to Rahul?",
         "choices": [
-            "A) Son",
-            "B) Nephew",
-            "C) Cousin",
-            "D) Uncle"
+            "A) A) Uncle",
+            "B) B) Brother",
+            "C) C) Cousin",
+            "D) D) Father"
         ],
         "answer": "B",
-        "explanation": "Raj's father's only sibling is his uncle or aunt. The son of Raj's uncle or aunt makes Raj the nephew or niece."
+        "explanation": "Rahul's mother's only daughter is Rahul himself. Hence, the man who is the brother of Rahul's mother is Rahul's Brother."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some cats are dogs; Statement II: All dogs are mammals; Conclusion I: Some mammals are cats; Conclusion II: Some cats are mammals",
+        "choices": [
+            "A) A) If only conclusion I follows",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "All dogs being mammals ensures some cats are mammals but not necessarily that some mammals are cats."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some dogs are cats Statement II: All cats are birds Statement III: Some birds are fish Conclusions I: Some fish are cats Conclusion II: Some birds are dogs",
+        "choices": [
+            "A) A) If only conclusion I follows",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "D",
+        "explanation": "There is no definitive link proving fish are cats or birds are dogs based on given statements."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some cats are dogs; Statement II: All dogs are birds; Statement III: Some birds are fish. Conclusions I: Some fish are dogs; Conclusion II: Some birds are cats",
+        "choices": [
+            "A) A) If only conclusion I follows",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "While all dogs being birds means some birds can be cats, no direct fish-dog link exists."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some cats are dogs; Statement II: All dogs are animals; Conclusion I: Some animals are cats; Conclusion II: Some dogs are cats",
+        "choices": [
+            "A) A) If only conclusion I follows",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusions I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "C",
+        "explanation": "Some cats being dogs allows for some animals to be cats and some dogs to be cats."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh introduces his sister-in-law as the wife of his brother's only child. How is Rajesh's sister-in-law related to him?",
+        "choices": [
+            "A) A) Sister-in-law",
+            "B) B) Wife",
+            "C) C) Niece",
+            "D) D) Cousin"
+        ],
+        "answer": "C",
+        "explanation": "Rajesh's sister-in-law is married to his brother's only child, making her the niece of Rajesh."
     },
     {
         "topic": "Mixed Series (Alphanumeric)",
@@ -65,83 +149,35 @@
         "choices": [
             "A) A) IJ10",
             "B) B) HI10",
-            "C) C) IG9",
-            "D) D) JK12"
+            "C) C) JK9",
+            "D) D) IL11"
         ],
-        "answer": "A",
-        "explanation": "The pattern alternates between increasing letters by one pair (AB to CD to EF) and then adding consecutive even numbers (2, 4, 6, 8). Thus, the next term is IJ10."
+        "answer": "B",
+        "explanation": "First and second letters follow alphabetical order while numbers increase by 2. Hence HI10."
     },
     {
         "topic": "Family tree logic",
-        "question": "Raj says, \"He is the brother of my father's only daughter.\" How is the man related to Raj?",
+        "question": "Rajesh says, \"He is the brother of my mother\u2019s only sibling.\" How is the man related to Rajesh?",
         "choices": [
-            "A) Brother",
-            "B) Uncle",
-            "C) Cousin",
-            "D) Nephew"
-        ],
-        "answer": "A",
-        "explanation": "Raj's father's only daughter is Raj's sister. The brother of Raj's sister is Raj's brother."
-    },
-    {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "1A2, 3B4, 5C6, 7D8, _____",
-        "choices": [
-            "A) A) 9E10",
-            "B) B) 9F9",
-            "C) C) 8E9",
-            "D) D) 9E9"
-        ],
-        "answer": "D",
-        "explanation": "The pattern alternates between increasing odd numbers and their subsequent even numbers while the letters increment sequentially from A to D to E. Therefore, the next sequence is 9E9."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: Some dogs are cats Statement II: All cats are birds Statement III: Some birds are fish Conclusions I: Some fish are cats Conclusion II: Some birds are dogs",
-        "choices": [
-            "A) A) If only conclusion I follows",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "D",
-        "explanation": "No direct link proves fish are cats or that birds are dogs."
-    },
-    {
-        "topic": "Family tree logic",
-        "question": "Rajesh says, \u201cHe is the brother of my wife\u2019s only sibling.\u201d How is Rajesh related to the man he is referring to?",
-        "choices": [
-            "A) A) Brother-in-law",
+            "A) A) Uncle",
             "B) B) Cousin",
-            "C) C) Uncle",
-            "D) D) Nephew"
+            "C) C) Nephew",
+            "D) D) Brother"
         ],
         "answer": "B",
-        "explanation": "Rajesh's wife has an only sibling who is her brother. Hence, Rajesh is married to the brother's sister making him the brother-in-law of the brother. Thus, the man is Rajesh's cousin."
+        "explanation": "Rajesh's mother has an only sibling who is his aunt. The brother of Rajesh's aunt is Rajesh's cousin."
     },
     {
         "topic": "Syllogisms",
-        "question": "Statement I: Some dogs are cats Statement II: All cats are birds Statement III: Some birds are fish Conclusions I: Some fish are cats Conclusion II: Some birds are dogs",
-        "choices": [
-            "A) A) If only conclusion I follow",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "B",
-        "explanation": "While some cats are birds, no direct link shows fish are cats. Dogs overlap with cats which are birds."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: Some birds are mammals Statement II: All mammals are reptiles Statement III: Some reptiles are amphibians Conclusions I: Some amphibians are mammals Conclusion II: Some reptiles are birds",
+        "question": "Statement I: Some cats are dogs; Statement II: All dogs are mammals; Statement III: Some mammals are elephants; Conclusions I: Some mammals are cats; Conclusion II: Some elephants are dogs",
         "choices": [
             "A) A) If only conclusion I follows",
             "B) B) If only conclusion II follows",
             "C) C) If conclusion I and II both follow",
             "D) D) If neither conclusion I nor conclusion II follows"
         ],
-        "answer": "D",
-        "explanation": "Mammals being reptiles does not imply amphibians are mammals. Birds being mammals and mammals being reptiles does not ensure reptiles are birds."
+        "answer": "A",
+        "explanation": "Some cats are dogs implies some mammals can be cats. There's no direct link proving elephants are dogs."
     },
     {
         "topic": "Mixed Series (Alphanumeric)",
@@ -149,87 +185,27 @@
         "choices": [
             "A)IJ5",
             "B)HI5",
-            "C)IH5",
-            "D)JI5"
+            "C)IF5",
+            "D)IH5"
         ],
         "answer": "A",
-        "explanation": "The series alternates between increasing alphabetical order by two letters and increasing numbers by one. Hence IJ5."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: All cats are dogs; Statement II: Some dogs are birds; Conclusion I: Some birds are cats; Conclusion II: Some dogs are cats",
-        "choices": [
-            "A) A) If only conclusion I follows",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "B",
-        "explanation": "All cats are dogs but no direct link from cats to birds. Conclusion II logically follows because all cats are included in the set of dogs."
-    },
-    {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "PQR2, STU3, VWX4, YZA5, _____",
-        "choices": [
-            "A) A) ABC6",
-            "B) B) DEF6",
-            "C) C) XYZ6",
-            "D) D) LMN6"
-        ],
-        "answer": "B",
-        "explanation": "The first three letters move forward by three places in the alphabet each time. The fourth character increments by 1 each step. Hence DEF6."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: All cats are dogs; Statement II: Some dogs are birds; Statement III: No bird is a fish. Conclusions I: Some cats are birds; Conclusion II: No cat is a fish",
-        "choices": [
-            "A) A) If only conclusion I follow",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "B",
-        "explanation": "Since all cats are dogs and no dog can be a fish, it follows that no cat is a fish. The relationship between cats and birds is not established."
-    },
-    {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "AB2, CD4, EF6, GH8, _____",
-        "choices": [
-            "A) A) IJ10",
-            "B) B) HI10",
-            "C) C) IK12",
-            "D) D) IJ10"
-        ],
-        "answer": "D",
-        "explanation": "The pattern alternates between increasing letters in sequence AB, CD, EF, GH and increasing even numbers by 2: 2, 4, 6, 8. Thus the next pair should be IJ10."
+        "explanation": "The pattern involves alternating between increasing letters AB, CD, EF, GH and increasing numbers 1, 2, 3, 4. Thus, the next term should be IJ5."
     },
     {
         "topic": "Family tree logic",
-        "question": "Raj says, \"He is the brother of my father's only daughter.\" How is the person related to Raj?",
+        "question": "Rajesh says, \"He is the son of my mother's only sibling.\" How is Rajesh related to the boy?",
         "choices": [
-            "A) A) Uncle",
-            "B) B) Brother",
+            "A) A) Nephew",
+            "B) B) Uncle",
             "C) C) Cousin",
-            "D) D) Son"
+            "D) D) Brother"
         ],
         "answer": "B",
-        "explanation": "Raj's father's only daughter is Raj's sister. So, the brother of Raj's sister is Raj's Brother."
-    },
-    {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "AB_1, BC_2, CD_3, DE_4, _____",
-        "choices": [
-            "A) A) EF_5",
-            "B) B) FE_5",
-            "C) C) FG_5",
-            "D) D) GF_5"
-        ],
-        "answer": "B",
-        "explanation": "The first two letters form consecutive pairs in the alphabet; the second letter becomes the first letter of the next pair. The number increases by 1 each time. Hence FE_5."
+        "explanation": "Rajesh's mother's only sibling is his aunt. The son of Rajesh's aunt is his nephew. Hence, Rajesh is the boy's Uncle."
     },
     {
         "topic": "Syllogisms",
-        "question": "Statement I: All dogs are animals Statement II: Some animals are cats Statement III: All cats are mammals Conclusions I: Some mammals are dogs Conclusion II: Some animals are dogs",
+        "question": "Statement I: All books are pens Statement II: Some pens are pencils Statement III: All pencils are erasers Conclusions I: Some erasers are books Conclusion II: Some pens are erasers",
         "choices": [
             "A) A) If only conclusion I follow",
             "B) B) If only conclusion II follows",
@@ -237,191 +213,59 @@
             "D) D) If neither conclusion I nor conclusion II follows"
         ],
         "answer": "B",
-        "explanation": "All dogs are animals confirms II but does not ensure any mammal is a dog directly."
-    },
-    {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "AB1, CD3, EF5, GH7, ___",
-        "choices": [
-            "A) A) IJ9",
-            "B) B) HI9",
-            "C) C) IH9",
-            "D) D) IJ8"
-        ],
-        "answer": "A",
-        "explanation": "The first and second letters progress in alphabetical order while skipping one letter each time. The numbers increase by 2 each step. Thus, the correct continuation is IJ9."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: All dogs are cats; Statement II: No cat is a bird; Conclusion I: No dog is a bird; Conclusion II: Some birds being dogs is a possibility",
-        "choices": [
-            "A) A) If only conclusion I follow",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "A",
-        "explanation": "Since all dogs are cats and no cat is a bird, it logically follows that no dog can be a bird. The possibility of birds being dogs contradicts this."
-    },
-    {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "AB2, CD4, EF6, GH8, _____",
-        "choices": [
-            "A) A) IK10",
-            "B) B) IJ10",
-            "C) C) HI9",
-            "D) D) JK12"
-        ],
-        "answer": "B",
-        "explanation": "The first two letters follow consecutive alphabets while the numbers double each time. Thus, the correct sequence is IJ10."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: Some dogs are cats; Statement II: All cats are birds; Conclusion I: Some birds are dogs; Conclusion II: Some dogs are birds",
-        "choices": [
-            "A) A) If only conclusion I follows",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "B",
-        "explanation": "Some dogs are cats and all cats are birds imply some dogs are birds but not necessarily that some birds are dogs."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: All books are pens Statement II: Some pens are pencils Statement III: No pencil is an eraser Conclusions I: Some books are pencils Conclusion II: No book is an eraser",
-        "choices": [
-            "A) A) If only conclusion I follows",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "B",
-        "explanation": "Books being pencils is not proven; all books are pens but some pens are pencils. Books cannot be erasers since no pencil is an eraser."
+        "explanation": "Some pens are erasers as stated; no direct link shows some erasers are books."
     },
     {
         "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "In a circular table setting, seven friends A, B, C, D, E, F, and G sit clockwise. A sits next to B and G. C is between E and F. D is not next to A but is between two people neither of whom is A. If everyone moves one seat to their right, who will be sitting immediately to the left of G?",
+        "question": "Five friends A, B, C, D, E sit in a row. B sits next to neither A nor D. C sits next to A but not next to E. Who sits second from the left?",
         "choices": [
-            "A) A) B",
+            "A) A) A",
             "B) B) C",
             "C) C) D",
-            "D) D) F"
-        ],
-        "answer": "B",
-        "explanation": "Initially: A-B-C-D-E-F-G. After moving one seat right: B-C-D-E-F-G-A. G is now between F and A, with C immediately to G's left."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: All cats are dogs; Statement II: Some dogs are birds; Conclusion I: Some birds are cats; Conclusion II: Some dogs are cats",
-        "choices": [
-            "A) A) If only conclusion II follows",
-            "B) B) If only conclusion I follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
+            "D) D) E"
         ],
         "answer": "A",
-        "explanation": "All cats are dogs confirms some dogs are cats but no direct cat-bird relation exists."
+        "explanation": "C sits next to A but not E, placing A and C together. B cannot sit next to A or D, so B sits next to C. Thus, the order is D-C-B-A-E, making A second from the left."
     },
     {
         "topic": "Family tree logic",
-        "question": "Rajesh says, \"He is the brother of my mother\u2019s only daughter.\" How is the man related to Rajesh?",
+        "question": "Raj says, \u201cHe is the brother of my mother\u2019s only daughter.\u201d How is Raj related to the person he is talking about?",
         "choices": [
-            "A) A) Uncle",
-            "B) B) Cousin",
-            "C) C) Brother",
+            "A) A) Brother",
+            "B) B) Uncle",
+            "C) C) Son",
             "D) D) Nephew"
-        ],
-        "answer": "C",
-        "explanation": "Rajesh's mother's only daughter is Rajesh himself. So, the brother of Rajesh's mother's only daughter is Rajesh's Brother."
-    },
-    {
-        "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Five friends A, B, C, D, E are sitting in a row facing North. B sits third to the right of A. C is not an immediate neighbor of B. D sits second to the right of C. If A and D swap places, who will be sitting second to the right of B?",
-        "choices": [
-            "A) A) C",
-            "B) B) D",
-            "C) C) E",
-            "D) D) A"
         ],
         "answer": "D",
-        "explanation": "Initially: A _ _ B _ (C or E) D C E. After swapping A and D: D _ _ B _ (C or E) A C E. Second to the right of B is A."
+        "explanation": "Raj's mother's only daughter is Raj himself. Therefore, the person referred to as the brother of Raj's mother's only daughter is Raj's brother, making Raj the Nephew of that person."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "2A3, 4B6, 6C9, 8D12, _____",
+        "choices": [
+            "A) A) 10E15",
+            "B) B) 10F14",
+            "C) C) 9E15",
+            "D) D) 10E16"
+        ],
+        "answer": "A",
+        "explanation": "Each term increases by 2 in the numerical part and follows an alphabetical sequence for the letter. The numerical part is multiplied by the position of the term in the series (1*2=2, 2*2=4, 3*2=6, 4*2=8, 5*2=10)."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "AB_2, CD_4, EF_6, GH_8, _____",
+        "choices": [
+            "A) A) IJ_10",
+            "B) B) HI_10",
+            "C) C) IJ_9",
+            "D) D) HI_9"
+        ],
+        "answer": "A",
+        "explanation": "The first two letters form an alternating pattern of increasing alphabet pairs AB, CD, EF, GH followed by IJ. The numbers increase by 2 each time: 2, 4, 6, 8, 10."
     },
     {
         "topic": "Syllogisms",
-        "question": "Statement I: Some dogs are cats Statement II: All cats are birds Statement III: Some birds are fishes Conclusion I: Some fishes are cats Conclusion II: Some birds are dogs",
-        "choices": [
-            "A) A) If only conclusion I follow",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "B",
-        "explanation": "Some dogs being cats does not ensure all cats are dogs; thus, no certainty about fish and cats. But some dogs are cats which means some birds can be dogs."
-    },
-    {
-        "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "In a linear seating arrangement, six friends - Alice, Bob, Carol, Dave, Eve, and Frank - sit in two rows facing each other. Alice sits opposite Dave, Bob is to the immediate left of Alice, Carol is opposite Bob, Frank is to the immediate right of Dave, and Eve is between Bob and Frank. If Alice and Eve swap places, who will be sitting to the immediate left of Carol?",
-        "choices": [
-            "A) A) Bob",
-            "B) B) Eve",
-            "C) C) Alice",
-            "D) D) Frank"
-        ],
-        "answer": "B",
-        "explanation": "Initial arrangement: Row 1 (Alice, Bob, Eve, Frank); Row 2 (Dave, Carol, -, -). After swap, Row 1 becomes (Eve, Bob, Alice, Frank). Carol is now to the immediate left of Eve."
-    },
-    {
-        "topic": "Family tree logic",
-        "question": "Rahul states, \"He is the brother of my father's only sibling.\" How is Rahul related to the man mentioned?",
-        "choices": [
-            "A) A) Uncle",
-            "B) B) Brother",
-            "C) C) Cousin",
-            "D) D) Nephew"
-        ],
-        "answer": "B",
-        "explanation": "Rahul's father has an only sibling who is Rahul's uncle or aunt. The brother of Rahul's father's only sibling is Rahul himself if they are of same generation; otherwise, it indicates another brother."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: All dogs are animals Statement II: Some animals are cats Statement III: No cat is a bird Conclusions I: Some birds are not animals Conclusion II: Some animals are dogs",
-        "choices": [
-            "A) A) If only conclusion I follow",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "B",
-        "explanation": "Conclusion I is false as no cat being a bird does not imply any animal is a bird. Conclusion II follows directly from Statement I."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: All cats are dogs Statement II: Some dogs are birds Statement III: All birds are fish Conclusions I: Some fish are dogs Conclusion II: All cats are fish",
-        "choices": [
-            "A) A) If only conclusion I follow",
-            "B) B) If only conclusion II follows",
-            "C) C) If conclusion I and II both follow",
-            "D) D) If neither conclusion I nor conclusion II follows"
-        ],
-        "answer": "B",
-        "explanation": "Some dogs being fish is true but not all cats being fish as no direct link between cats and fish exists."
-    },
-    {
-        "topic": "Family tree logic",
-        "question": "Raj says, \"He is the son of my father's only sibling.\" How is Raj related to him?",
-        "choices": [
-            "A) Son",
-            "B) Nephew",
-            "C) Cousin",
-            "D) Uncle"
-        ],
-        "answer": "B",
-        "explanation": "Raj's father's only sibling is his uncle or aunt. The son of Raj's uncle or aunt is Raj's nephew or niece."
-    },
-    {
-        "topic": "Syllogisms",
-        "question": "Statement I: All books are pens; Statement II: Some pens are pencils; Statement III: No pencil is an eraser. Conclusion I: Some books are pencils; Conclusion II: No book is an eraser",
+        "question": "Statement I: Some cats are dogs Statement II: All dogs are animals Conclusion I: Some animals are cats Conclusion II: Some dogs are cats",
         "choices": [
             "A) A) If only conclusion I follows",
             "B) B) If only conclusion II follows",
@@ -429,11 +273,11 @@
             "D) D) If neither conclusion I nor conclusion II follows"
         ],
         "answer": "B",
-        "explanation": "Books are all pens but no definite link shows books are pencils. Books cannot be erasers due to no pencil being an eraser."
+        "explanation": "While all dogs being animals means some animals could be dogs, there's no direct link proving some animals are cats or that some dogs are specifically cats."
     },
     {
         "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Five friends A, B, C, D, E sit in a row facing north. A sits next to B but not next to E. C sits to the immediate right of D. If E swaps places with the person sitting immediately to the left of B, who will be second to the right of A?",
+        "question": "Five friends A, B, C, D, and E sit in a row facing north. B sits third from the left end. C is immediately to the right of B. D is to the immediate left of A. E is not next to B. If they rearrange such that D moves two places to the right, who is now second from the right?",
         "choices": [
             "A) A) B",
             "B) B) C",
@@ -441,95 +285,203 @@
             "D) D) E"
         ],
         "answer": "D",
-        "explanation": "Initial arrangement: D-C-B-A-E. After swap, it becomes D-C-E-B-A. Second to right of A is E."
-    },
-    {
-        "topic": "Family tree logic",
-        "question": "Raj points to a man and says, \"He is my mother's brother's son.\" How is the man related to Raj?",
-        "choices": [
-            "A) Son",
-            "B) Nephew",
-            "C) Cousin",
-            "D) Uncle"
-        ],
-        "answer": "C",
-        "explanation": "Raj's mother's brother's son is the son of his uncle, making him Raj's cousin."
-    },
-    {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "AB2, CD4, EF6, GH8, _____",
-        "choices": [
-            "A) IA10",
-            "B) IG10",
-            "C) II10",
-            "D) IH10"
-        ],
-        "answer": "B",
-        "explanation": "The pattern involves alternating between consecutive letters and even numbers increasing by 2. The correct continuation maintains this rule."
-    },
-    {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "AB_3, CD_5, EF_7, GH_9, _____",
-        "choices": [
-            "A) A) IJ_11",
-            "B) B) HI_10",
-            "C) C) IJ_11",
-            "D) D) JK_13"
-        ],
-        "answer": "C",
-        "explanation": "The pattern involves increasing the first two letters by two alphabets each time and adding 2 to the number sequence. Hence IJ_11."
+        "explanation": "Initial arrangement: A-D-C-B-E. After moving D two places right, the new order is A-B-D-C-E. Second from the right is D."
     },
     {
         "topic": "Syllogisms",
-        "question": "Statement I: All dogs are animals Statement II: Some animals are birds Statement III: No bird is a fish Conclusions I: Some animals are not fishes Conclusion II: All dogs are birds",
+        "question": "Statement I: Some birds are mammals Statement II: All mammals are reptiles Statement III: Some reptiles are amphibians Conclusion I: Some amphibians are mammals Conclusion II: Some reptiles are birds",
         "choices": [
-            "A) A) If only conclusion I follow",
+            "A) A) If only conclusion I follows",
             "B) B) If only conclusion II follows",
             "C) C) If conclusion I and II both follow",
             "D) D) If neither conclusion I nor conclusion II follows"
         ],
-        "answer": "A",
-        "explanation": "Some animals are birds and no bird is a fish implies some animals are not fishes. Dogs being animals does not mean all dogs are birds."
+        "answer": "D",
+        "explanation": "Mammals are reptiles does not imply amphibians are mammals; reptiles being mammals or birds is not directly supported."
     },
     {
         "topic": "Syllogisms",
-        "question": "Statement I: All cats are mammals Statement II: Some mammals are dogs Statement III: All dogs are animals Conclusions I: Some animals are cats Conclusion II: Some mammals are cats",
+        "question": "Statement I: Some dogs are cats; Statement II: All cats are birds; Statement III: Some birds are fish. Conclusions I: Some fish are cats; Conclusion II: Some birds are dogs",
         "choices": [
-            "A) A) If only conclusion II follows",
-            "B) B) If only conclusion I follows",
+            "A) A) If only conclusion I follows",
+            "B) B) If only conclusion II follows",
             "C) C) If conclusion I and II both follow",
             "D) D) If neither conclusion I nor conclusion II follows"
         ],
-        "answer": "A",
-        "explanation": "While all cats are mammals, there's no guarantee that cats are among the mammals that are also dogs, hence no direct link to animals from cats. But all cats being mammals directly supports conclusion II."
+        "answer": "D",
+        "explanation": "No direct link between fish and cats exists. Birds and dogs relationship is not certain from given statements."
     },
     {
         "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Five friends A, B, C, D, E sit in a row facing North. B sits third from the left. C is to the immediate left of B. A is not next to C. D is at one end of the row. If E swaps places with the person second from the left, who will be sitting second from the left?",
+        "question": "In a circular table seating, five friends A, B, C, D, and E sit clockwise in that order. If A and C swap places, then who will be seated between B and D?",
         "choices": [
             "A) A) A",
-            "B) B) E",
-            "C) C) B",
+            "B) B) C",
+            "C) C) E",
             "D) D) D"
         ],
         "answer": "B",
-        "explanation": "Initial seating: D-C-B-E-A. After swap, it becomes D-C-E-B-A. Second from left is now E."
+        "explanation": "After A and C swap, the order becomes C-B-D-E-A. Thus, C sits between B and D."
     },
     {
-        "topic": "Mixed Series (Alphanumeric)",
-        "question": "1A3, 2B5, 3C7, 4D9, _____",
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Five friends A, B, C, D, and E are sitting in a row facing north. A is between B and C. D is not at either end and sits to the right of C. If E is to the immediate left of D, who is second to the right of the person sitting immediately to the left of C?",
         "choices": [
-            "A) 5E11",
-            "B) 6F10",
-            "C) 5F12",
-            "D) 6E11"
+            "A) A) B",
+            "B) B) C",
+            "C) C) E",
+            "D) D) D"
+        ],
+        "answer": "D",
+        "explanation": "Arrangement: B-A-C-E-D. Left of C is A. Second to the right of A is D."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Raj points to a man and says, \u201cHe is the only son of my father\u2019s only daughter.\u201d How is the man related to Raj?",
+        "choices": [
+            "A) A) Brother",
+            "B) B) Nephew",
+            "C) C) Son",
+            "D) D) Cousin"
         ],
         "answer": "A",
-        "explanation": "The series follows a pattern where the first digit increases by 1, the letter advances alphabetically, and the last digit increments by 2 each time. Thus, the next term is 5E11."
+        "explanation": "The only daughter of Raj\u2019s father is Raj\u2019s sister. The only son of Raj\u2019s sister is Raj\u2019s brother."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rahul states, \"He is the son of my father's only sister.\" How is the person related to Rahul?",
+        "choices": [
+            "A) Son",
+            "B) Nephew",
+            "C) Cousin",
+            "D) Brother"
+        ],
+        "answer": "C",
+        "explanation": "My father's only sister is Rahul's aunt. Her son is therefore Rahul's cousin."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh says, \"He is the son of my father's only sibling.\" How is Rajesh related to the boy?",
+        "choices": [
+            "A) A) Brother",
+            "B) B) Cousin",
+            "C) C) Uncle",
+            "D) D) Nephew"
+        ],
+        "answer": "B",
+        "explanation": "Rajesh's father's only sibling is his uncle or aunt. The son of an uncle/aunt is Rajesh's cousin."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a linear arrangement, five friends A, B, C, D, E sit facing North while F, G, H, I, J sit facing South. If B is opposite F, C is to the immediate right of B, G is immediately to the left of F, D is opposite H, and J is at one end facing South. After B and H swap places, who is second to the right of the person opposite J?",
+        "choices": [
+            "A) A) C",
+            "B) B) B",
+            "C) C) D",
+            "D) D) A"
+        ],
+        "answer": "B",
+        "explanation": "B was initially opposite F but swaps with H. Thus, H faces North opposite F. J is at one end, so its opposite is A. Second to the right of A is B."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh says, \"He is the brother of my father\u2019s only daughter.\" How is the man related to Rajesh?",
+        "choices": [
+            "A) A) Uncle",
+            "B) B) Brother",
+            "C) C) Cousin",
+            "D) D) Nephew"
+        ],
+        "answer": "B",
+        "explanation": "My father's only daughter is Rajesh's sister. The brother of Rajesh's sister is Rajesh himself; thus, the man is Rajesh's Brother."
     },
     {
         "topic": "Mixed Series (Alphanumeric)",
-        "question": "AB2, CD4, EF6, GH8, _____",
+        "question": "AB1, CD2, EF3, GH4, _____",
+        "choices": [
+            "A) A) IJ5",
+            "B) B) HI5",
+            "C) C) IH5",
+            "D) D) JK5"
+        ],
+        "answer": "C",
+        "explanation": "The first two letters follow the pattern of alternating between increasing by one letter in the alphabet and skipping one letter. The numbers increase sequentially by 1. Hence IH5."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh says, \"He is the son of my wife's only sibling.\" How is Rajesh related to the boy?",
+        "choices": [
+            "A) A) Uncle",
+            "B) B) Father",
+            "C) C) Brother-in-law",
+            "D) D) Cousin"
+        ],
+        "answer": "C",
+        "explanation": "Rajesh's wife's only sibling is her sister or brother. If it's her sister, then the son would be Rajesh's brother-in-law. If it's her brother, he wouldn't have a son. Thus, the correct relation is Brother-in-law."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh points to a man and says, \"He is the son of my father's only daughter.\" How is Rajesh related to the man?",
+        "choices": [
+            "A) A) Uncle",
+            "B) B) Father",
+            "C) C) Brother",
+            "D) D) Nephew"
+        ],
+        "answer": "D",
+        "explanation": "Rajesh's father's only daughter is Rajesh's sister. The son of Rajesh's sister is Rajesh's nephew."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a linear seating arrangement, six friends A, B, C, D, E, and F are sitting in a row facing North. B is third from the left, A is to the immediate left of B, C is between A and D, and E is to the immediate right of D. Who is second to the right of F if F is at one end of the row?",
+        "choices": [
+            "A) A) A",
+            "B) B) C",
+            "C) C) E",
+            "D) D) D"
+        ],
+        "answer": "C",
+        "explanation": "Given positions: B is 3rd from left, A immediately left of B, C between A and D, E immediately right of D. Thus, order is F-C-A-B-D-E. Second to right of F is C."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a linear seating arrangement, six friends A, B, C, D, E, F sit facing North. B sits second to the right of A. D is not an immediate neighbor of B. C sits third to the left of E. F does not sit next to D. Who sits between A and E?",
+        "choices": [
+            "A) A) B",
+            "B) B) C",
+            "C) C) D",
+            "D) D) F"
+        ],
+        "answer": "D",
+        "explanation": "A sits at one end, B second to A's right. C third left of E means E sits fourth from A's right. F not next to D and D not next to B leaves F between A and E."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh points to a man and says, \"He is the brother of my mother's only daughter.\" How is the man related to Rajesh?",
+        "choices": [
+            "A) A) Brother",
+            "B) B) Uncle",
+            "C) C) Cousin",
+            "D) D) Nephew"
+        ],
+        "answer": "B",
+        "explanation": "The brother of Rajesh's mother's only daughter is Rajesh's uncle."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Five friends A, B, C, D, E sit in a row facing north. B sits next to neither A nor C. D sits next to both B and E. Who is sitting second to the right of the person sitting between B and E?",
+        "choices": [
+            "A) A) A",
+            "B) B) C",
+            "C) C) D",
+            "D) D) E"
+        ],
+        "answer": "C",
+        "explanation": "Arrangement is A-D-B-E-C. Between B and E is D. Second to the right of D is C."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "AB2, CD4, EF6, GH8, ___",
         "choices": [
             "A) A) IJ10",
             "B) B) HI10",
@@ -537,30 +489,90 @@
             "D) D) HI9"
         ],
         "answer": "A",
-        "explanation": "The pattern involves alternating alphabetical sequence and doubling numerical values: AB(2), CD(4), EF(6), GH(8), thus continuing as IJ(10)."
+        "explanation": "The first and second letters follow alphabetical order in pairs. The numbers double every step: 2, 4, 6, 8, 10."
     },
     {
-        "topic": "Family tree logic",
-        "question": "Rajesh says, \"He is the brother of my father\u2019s only sister.\" How is Rajesh related to him?",
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "AB_2, CD_4, EF_6, GH_8, _____",
         "choices": [
-            "A) A) Brother",
-            "B) B) Nephew",
-            "C) C) Uncle",
-            "D) D) Cousin"
+            "A)IJ_10",
+            "B)JI_9",
+            "C)HI_10",
+            "D)IH_9"
+        ],
+        "answer": "A",
+        "explanation": "The first two letters follow the pattern of alternating pairs of letters in the alphabet. The number sequence increases by 2 each time: 2, 4, 6, 8, 10."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All dogs are cats Statement II: Some cats are birds Statement III: All birds are fish Conclusions I: Some fish are cats Conclusion II: All dogs are fish",
+        "choices": [
+            "A) A) If only conclusion I follow",
+            "B) B) If only conclusion II follows",
+            "C) C) If conclusion I and II both follow",
+            "D) D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "D",
+        "explanation": "Some cats being birds means some fish are cats. Dogs being cats does not ensure they are fish."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Five friends A, B, C, D, and E are sitting in a row facing North. B is between A and C, and D is not next to E. If A and D swap places, who will be sitting second to the right of the person originally next to B?",
+        "choices": [
+            "A) A) A",
+            "B) B) C",
+            "C) C) D",
+            "D) D) E"
         ],
         "answer": "B",
-        "explanation": "Rajesh's father's only sister is his aunt. The brother of Rajesh's aunt is his father's brother or uncle. Thus, Rajesh is the nephew of the man mentioned."
+        "explanation": "Initially, the seating order can be A-B-C-D-E or E-D-C-B-A based on conditions. Swapping A and D gives D-B-C-A-E. Originally, B was next to A and C. Second to the right of C is D but since A and D swapped, it's now C."
     },
     {
         "topic": "Family tree logic",
-        "question": "Rajesh points to a man and says, \"He is the brother of my mother's only daughter.\" How is the man related to Rajesh?",
+        "question": "Rahul says, \"He is the brother of my father's only daughter.\" How is Rahul related to the person he is referring to?",
+        "choices": [
+            "A) A) Uncle",
+            "B) B) Brother",
+            "C) C) Cousin",
+            "D) D) Nephew"
+        ],
+        "answer": "B",
+        "explanation": "Rahul's father's only daughter is Rahul's sister. The brother of Rahul's sister is Rahul himself."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Raj points to a man and says, \"He is the brother of my mother's only daughter.\" How is the man related to Raj?",
         "choices": [
             "A) A) Uncle",
             "B) B) Father",
-            "C) C) Brother",
-            "D) D) Cousin"
+            "C) C) Cousin",
+            "D) D) Brother"
+        ],
+        "answer": "D",
+        "explanation": "Raj's mother's only daughter would be Raj himself. Hence, the man who is the brother of Raj's mother is Raj's Brother."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "2A3, 4D5, 6G7, 8J9, ___",
+        "choices": [
+            "A) A) 10M11",
+            "B) B) 10L11",
+            "C) C) 10K11",
+            "D) D) 10N11"
+        ],
+        "answer": "A",
+        "explanation": "The number sequence increases by 2; the letter sequence follows every third letter in the alphabet."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "AB1, CD2, EF3, GH4, _____",
+        "choices": [
+            "A) A) IJ5",
+            "B) B) HI5",
+            "C) C) IH5",
+            "D) D) JK5"
         ],
         "answer": "C",
-        "explanation": "Rajesh's mother's only daughter is Rajesh himself. Hence, the brother of Rajesh's mother's only daughter is Rajesh's Brother."
+        "explanation": "The pattern involves alternating the first and second letters while increasing the numeric value by 1 each time. Thus, the correct sequence is IH5."
     }
 ]
