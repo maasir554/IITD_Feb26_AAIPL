@@ -89,6 +89,7 @@ class QuestioningAgent(object):
             '{{"topic":"{3}","question":"If 2x + 3 = 11, what is x?","choices":["A) 3","B) 4","C) 5","D) 6"],"answer":"{1}","explanation":"Solving: 2x = 8, so x = 4."}}\n'
             "{4}"
         )
+
         # Remove model's preferential bias for options
         correct_option = random.choice(["A", "B", "C", "D"])
         distractors = ", ".join(

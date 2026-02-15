@@ -9,7 +9,7 @@ torch.random.manual_seed(0)
 
 class AAgent(object):
     def __init__(self, **kwargs):
-        model_path = kwargs.get("model_path", "/workspace/AAIPL/hf_models/Qwen2.5-14B-Instruct")
+        model_path = kwargs.get("model_path", "/workspace/AAIPL/outputs/final")
 
         # load with Unsloth for inference (trained adapter)
         model, tokenizer = FastLanguageModel.from_pretrained(
@@ -25,6 +25,7 @@ class AAgent(object):
     def generate_response(
         self, message: str | List[str], system_prompt: Optional[str] = None, **kwargs
     ) -> str:
+        self.tokenizer.padding_side = "left"
         if system_prompt is None:
             system_prompt = "You are a helpful assistant."
         if isinstance(message, str):

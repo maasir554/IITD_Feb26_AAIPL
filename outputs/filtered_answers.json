@@ -1,46 +1,194 @@
 [
     {
+        "answer": "D",
+        "reasoning": "Statement I says some cats are dogs, but this does not imply any direct relationship between cats and birds or fish. Statement II says all dogs are birds, which means some birds can be dogs, but it doesn't establish a connection where some fish are dogs. Statement III says some birds are fish, but there's no link provided to conclude either statement directly. Hence, neither conclusion follows."
+    },
+    {
         "answer": "C",
-        "reasoning": "Rajesh states that he is the son of his father's only sibling. This means the person he is referring to is his father's sibling's child, making them cousins. Therefore, the correct relation is 'Cousin'."
+        "reasoning": "In the row, A is next to B but not E, implying A is between B and C/D. Since C is next to both D and E, C must be at one end with D and E next to it. Thus, the arrangement could be D-C-A-B-E or E-C-A-B-D. In a circle, B's opposite is E or D. Second to the right of E/D is C."
     },
     {
         "answer": "D",
-        "reasoning": "Statement I implies there's overlap between dogs and cats but doesn't confirm any specific relationship for all members. Statement II links all cats to birds. Statement III indicates some birds are fish. Conclusion I suggests some fish are cats, which isn't supported since we can't infer this reverse relationship. Conclusion II proposes some birds are dogs, which also lacks support. Thus, neither conclusion logically follows."
+        "reasoning": "Statement I suggests some overlap between cats and dogs but does not imply any direct relationship with birds. Statement II states all dogs are animals, which supports that some animals are cats from Statement I. However, there's no logical connection implying some birds are dogs (Conclusion I). Therefore, only Conclusion II logically follows."
     },
     {
         "answer": "C",
-        "reasoning": "A is second from the left, so the first position must be occupied by someone else. Since C is at one end, and given A's position, C must be on the far left. B is immediately to the right of A, placing them in positions 2 and 3 respectively. With D not next to B, D cannot be in position 4. Therefore, E must be in position 4, leaving D for position 5. Thus, C is third from the left."
+        "reasoning": "Initially, A faces G, B is to the left of A, C faces H, and D is to the left of C. This means the order is B-A-D-C-E facing north, and G-F-H-I-J facing south. After B and H swap, B is now facing south and H is facing north. The person originally facing D is H, so we need the person to the right of H, which is I."
     },
     {
         "answer": "C",
-        "reasoning": "Rahul's mother has only one child, which is Rahul himself. The man claims to be the brother of Rahul's mother's only child, meaning he is Rahul's brother."
+        "reasoning": "Rajiv states he is the brother of the man's mother's only daughter, which means he is the brother of the man himself. Therefore, Rajiv is the man's son."
     },
     {
-        "answer": "A",
-        "reasoning": "From Statement I, since all cats are dogs, and Statement II says no dog is a bird, it logically follows that no cat can be a bird. However, Statement III does not provide any direct link between fish and dogs, so Conclusion II cannot be inferred. Therefore, only Conclusion I follows."
+        "answer": "D",
+        "reasoning": "C is between A and D, so the arrangement includes A-C-D or D-C-A. Since B is immediately to the right of D, it must be D-C-B. Given E is not next to B, E can only sit at the far left position, making the sequence E-A-C-D-B. Thus, the person second to the left of C is E."
     },
-    null,
-    null,
-    null,
-    {
-        "answer": "A",
-        "reasoning": "Initially, A sits next to B but not C, and D sits next to both C and E. This implies the initial arrangement could be C-D-E-B-A or A-B-E-D-C. After swapping B and E, the arrangement becomes A-E-D-B-C or C-D-E-A-B. In both cases, C is between A and D."
-    },
-    null,
-    {
-        "answer": "A",
-        "reasoning": "Statement I suggests some overlap between cats and dogs but does not imply all cats are dogs. Statement II confirms dogs are mammals. Conclusion I logically follows since if some cats are dogs and all dogs are mammals, then some mammals must be cats. However, Conclusion II cannot be inferred directly from the given statements."
-    },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
     {
         "answer": "C",
-        "reasoning": "Initially, the seating order is E-A-B-C-D-F. Moving two seats to the right changes it to D-F-E-B-C-A. Thus, C sits between B and F."
+        "reasoning": "The pattern involves shifting to the next set of three consecutive letters followed by an incrementing number. Starting from PQR2, moving to STU3, VWX4, and YZA5, the next sequence should follow the same rule, leading to DEF6."
     },
-    null
+    {
+        "answer": "C",
+        "reasoning": "Rajesh's father has only one sibling, meaning they are siblings. The person described is the child of this sibling. Therefore, Rajesh is the cousin of the person described."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Rajesh states he is the brother of Rajesh's father's only daughter. This means Rajesh's father has one daughter, who is Rajesh\u2019s sister. Therefore, Rajesh is the nephew of the person being addressed."
+    },
+    {
+        "answer": "D",
+        "reasoning": "A sits second from the left, so the arrangement starts with _A_. B sits third to the right of A, placing B fourth. C sits second to the left of B, placing C second. D sits at one end, but since E is not an immediate neighbor of D and F is not next to A or C, D must be on the far right. Thus, the sequence is D_F_C_A_B_E, making E the third from the right."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Statement I implies all cats are dogs, so no cat can be a bird based on Statement II (no dog is a bird). Thus, Conclusion I logically follows. However, Conclusion II cannot be derived because there's no direct link between fish and cats. Therefore, only Conclusion I follows."
+    },
+    {
+        "answer": "C",
+        "reasoning": "The pattern decreases alphabetically and numerically by 2 for each term. Starting from XYZ_9, each subsequent term shifts the letters two places backward and reduces the number by 2. Following this, after PON_1, the next sequence should be LMN_0."
+    },
+    {
+        "answer": "C",
+        "reasoning": "B is immediately left of C, so BC are together. C is not at either end, thus BC can be in positions 2-3 or 3-4. D is immediately right of E, so ED can be in positions 2-3 or 3-4. Since A is not next to B, BC must be in 3-4 and ED in 2-3. Thus, initial order is EDBCA. Shifting one place right gives DBCEA, making C the middle person."
+    },
+    {
+        "answer": "C",
+        "reasoning": "From Statement I, all birds are animals. From Statement II and III, some animals are mammals and all mammals are vertebrates. Hence, some vertebrates are indeed animals, supporting Conclusion I. Since all birds are animals and some animals are mammals, and all mammals are vertebrates, it implies all birds are vertebrates, supporting Conclusion II. Thus, both conclusions logically follow."
+    },
+    {
+        "answer": "A",
+        "reasoning": "The pattern involves consecutive pairs of letters followed by increasing numbers. The sequence starts with AB_1, CD_2, EF_3, GH_4, so the next pair should follow this pattern. The next pair after GH would be IJ, and the number increments to 5. Thus, the correct option is IJ_5."
+    },
+    {
+        "answer": "A",
+        "reasoning": "The pattern follows alphabetical order with consecutive letters followed by a number incrementing by one. Each pair of letters moves two steps forward in the alphabet from the previous pair. Thus, after GH, the next pair should be IJ, and the number should be 5."
+    },
+    {
+        "answer": "C",
+        "reasoning": "B is third from the left, so the positions could be _ _ B _ _. C is immediately to the right of A, meaning A and C must be together. Since D is between B and E, the arrangement becomes A C B D E, making C the second from the left."
+    },
+    {
+        "answer": "D",
+        "reasoning": "The pattern follows alternating letters starting from A and increasing even numbers. Each pair of letters moves two places forward in the alphabet (AB to CD, CD to EF, EF to GH). The next pair should follow GH with IJ, and the number increases by 2 from 8 to 10 but the pattern here breaks as the sequence should maintain IJ8."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Initially, A faces G, with C to A's right and G to H's immediate left. B is to the immediate left of D, facing I. J is at one end. After swapping G and H, G now faces A, and H faces C. The second person to the right of G is C, so H is directly opposite C."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Since A is opposite B, and F is to the immediate right of A, we place A and B opposite each other with F next to A. Given C is between D and E, C must be on A's left, making D and E the neighbors of C. Thus, the order around the table is A-F-B-C-D-E or its reverse. Hence, B is to the immediate left of D."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Rajesh says he is the son of his mother's only daughter. This means Rajesh's mother's only daughter is Rajesh's sister. The boy mentioned is therefore Rajesh's sister's son, making Rajesh the boy's uncle's brother or simply the boy's uncle's sibling, which is his brother."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Rajesh states he is the son of his father's only sibling. This means the person he is referring to is his father\u2019s sibling, making them cousins. Hence, the correct relation is cousin."
+    },
+    {
+        "answer": "A",
+        "reasoning": "The pattern follows consecutive pairs of letters (AB, CD, EF, GH) with increasing even numbers (2, 4, 6, 8). The next pair should be 'IJ' with the next even number, which is 10."
+    },
+    {
+        "answer": "A",
+        "reasoning": "From Statement I and II, since all books are pens and no pen is a pencil, it logically follows that no book can be a pencil. However, Statement III does not provide enough information to conclude that some erasers are not books, as there's no direct link between books and erasers."
+    },
+    {
+        "answer": "B",
+        "reasoning": "The pattern follows consecutive pairs of letters (AB, CD, EF, GH) followed by increasing numbers (1, 2, 3, 4). The next pair of letters should follow GH, which is HI. Thus, the correct sequence is HI_5."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Rajesh's maternal uncle is his mother's brother. Therefore, the man introduced as Rajesh\u2019s maternal uncle's son would be Rajesh's cousin. However, the question specifies that he is the maternal uncle's son, making him the brother of Rajesh\u2019s mother, which makes him Rajesh\u2019s uncle. But since the question asks how the man is related to Rajesh, and given the options, the correct relation is that the man is Rajesh's nephew, as Rajesh\u2019s maternal uncle\u2019s son is Rajesh\u2019s mother\u2019s brother\u2019s son, thus Rajesh\u2019s nephew."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Statement I implies some overlap between cats and dogs but does not confirm any mammal status for cats directly. Statement II confirms dogs are mammals, but this doesn't necessarily mean some mammals are cats. Statement III states some mammals are birds, unrelated to dogs or cats. Thus, neither conclusion logically follows."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Statement I confirms all cats are mammals, making it true that some dogs (being mammals) are indeed mammals. However, Statement II does not imply no mammal is a cat; it only states some mammals are dogs. Therefore, only Conclusion I logically follows."
+    },
+    {
+        "answer": "A",
+        "reasoning": "The pattern follows alphabetical order with consecutive letters for the first two characters and increments by 2 for the number. Thus, after GH_8, the next pair should be IJ followed by 10."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From Statement I: Some dogs are cats, it does not imply any direct relation between fish and cats or between birds and dogs. From Statement II: All cats are birds, this confirms some cats are indeed birds but does not establish a direct link to fish or dogs through these statements. Statement III: Some birds are fish, does not support a direct link to cats or dogs. Therefore, neither Conclusion I nor Conclusion II can be logically derived."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Statement I indicates all dogs are mammals. Statement II states some mammals are pets. From these, we cannot infer that some pets are dogs (Conclusion I), but we can infer that some dogs could be pets (Conclusion II). Therefore, only Conclusion II logically follows."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Rahul's mother has only one sibling, meaning this person is Rahul's aunt or uncle. The boy is described as the son of Rahul's mother's only sibling, making him Rahul's cousin. Therefore, the correct relation is 'Cousin'."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Rajesh says 'this is my uncle's son's daughter.' Since Rajesh's uncle's son would be Rajesh's cousin, and Rajesh's cousin's daughter would make Rajesh the sister of this girl. Therefore, the girl is Rajesh's niece."
+    },
+    {
+        "answer": "C",
+        "reasoning": "The pattern follows consecutive letters in the alphabet with increasing even numbers. The sequence starts with 'AB2', 'CD4', 'EF6', 'GH8'. Following this, the next pair should be 'IJ' with the next even number, which is 10. Hence, the correct option is 'IJ10'."
+    },
+    {
+        "answer": "B",
+        "reasoning": "The pattern follows an alphabetical sequence with increasing even numbers. Each pair of letters progresses by two positions alphabetically (A to C to E to G), and the number increases by 2 (2 to 4 to 6 to 8). Thus, the next pair should be 'IJ' followed by '10'. Hence, option B is correct."
+    },
+    {
+        "answer": "C",
+        "reasoning": "The pattern follows consecutive pairs of letters where the first two letters are in alphabetical order and the number doubles each time. After GH8, the next pair should be KL8 since K comes after G and L comes after H, maintaining the sequence. The number remains 8 because it doesn't follow a doubling pattern but stays consistent."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Rahul's father's only daughter is Rahul's sister. The man claims to be the brother of Rahul's sister, making him Rahul's uncle."
+    },
+    {
+        "answer": "A",
+        "reasoning": "From Statement I, we know all cats are mammals. From Statement II, some mammals are dogs but does not imply any relationship between cats and dogs. Statement III explicitly states no dog is a cat. Therefore, Conclusion I (some mammals are not cats) logically follows since there are mammals (dogs) which are not cats. Conclusion II (all cats are dogs) contradicts Statement III and hence does not follow."
+    },
+    {
+        "answer": "B",
+        "reasoning": "The pattern follows consecutive pairs of letters (AB, CD, EF, GH) and numbers increasing by 2 (2, 4, 6, 8). The next pair of letters should be IJ, and the number should follow 8 with an increment of 2, making it 10. Hence, the correct sequence is IJ10."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Raj's father's only daughter is Raj's sister. Therefore, the man Raj is pointing to is his sister's husband, making him Raj's uncle."
+    },
+    {
+        "answer": "C",
+        "reasoning": "The pattern follows consecutive letters in the alphabet with increasing even numbers. AB2, CD4, EF6, GH8, next should be IJ8 since I comes after H and the number continues the even sequence."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Rajesh's father has only one sibling, which means the person he is introducing is the child of this sibling. Therefore, Rajesh's friend is the child of his uncle/aunt, making him/her Rajesh's cousin."
+    },
+    {
+        "answer": "A",
+        "reasoning": "From Statement I, we know all dogs are animals, which supports Conclusion II. However, Statements I, II, and III do not provide information to conclude that some birds are animals (Conclusion I). Therefore, only Conclusion II logically follows."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Statement I confirms that all dogs are mammals. Statement II states some mammals are cats but does not imply any relationship between cats and dogs. Thus, Conclusion I (some cats are dogs) is invalid. However, Conclusion II logically follows since if all dogs are mammals, then some mammals must indeed be dogs."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Rahul states he is the son of his mother's only sibling, which means the boy's parent is Rahul's aunt or uncle. Therefore, the boy is Rahul\u2019s cousin."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Since A is between B and C, and D is immediately to the right of C, the arrangement around the table must be B-A-C-D. Given E is not next to A, E must be to the immediate left of B. Thus, the sequence is E-B-A-C-D. Therefore, C is to the immediate left of B."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Rajesh states he is the brother of Rajesh's father's only son. Since Rajesh\u2019s father's only son is Rajesh himself, Rajesh must be referring to his own sibling. Therefore, Rajesh is the nephew of the person he is addressing."
+    },
+    {
+        "answer": "A",
+        "reasoning": "From Statement I, all dogs are animals. From Statement II, some animals are birds. From Statement III, no bird is a fish. Conclusion I states 'Some animals are not fish', which logically follows since some animals are birds and no bird is a fish. Conclusion II states 'Some dogs are birds', which does not follow because while all dogs are animals and some animals are birds, it does not imply any dogs are birds."
+    }
 ]

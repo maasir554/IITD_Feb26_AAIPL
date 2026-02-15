@@ -6,7 +6,7 @@ from unsloth import FastLanguageModel
 
 class QAgent(object):
     def __init__(self, **kwargs):
-        model_path = kwargs.get("model_path", "/workspace/AAIPL/hf_models/Qwen2.5-14B-Instruct")
+        model_path = kwargs.get("model_path", "/workspace/AAIPL/outputs/final")
         # Allow long input; output capped at 1024. Total context = max_seq_length.
         self.max_seq_length = kwargs.get("max_seq_length", 2048)
 
