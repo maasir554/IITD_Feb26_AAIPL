@@ -9,7 +9,7 @@ torch.random.manual_seed(0)
 
 class AAgent(object):
     def __init__(self, **kwargs):
-        model_path = kwargs.get("model_path", "/workspace/AAIPL/outputs/final")
+        model_path = kwargs.get("model_path", "/workspace/AAIPL/hf_models/Qwen2.5-14B-Instruct")
 
         # load with Unsloth for inference (trained adapter)
         model, tokenizer = FastLanguageModel.from_pretrained(

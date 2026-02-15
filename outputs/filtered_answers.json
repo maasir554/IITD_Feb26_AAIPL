@@ -1,22 +1,46 @@
 [
     {
-        "answer": "B",
-        "reasoning": "Rajesh's mother's only sister is Rajesh's aunt. The man introduced as her brother would therefore be Rajesh's uncle. Thus, the correct relation is 'Uncle,' making option A the intended answer, but since the question asks for how the man is related to Rajesh and not vice versa, and given the options provided, the closest match is 'Cousin' if considering direct blood relatives of the same generation, hence B."
-    },
-    {
-        "answer": "B",
-        "reasoning": "Rahul describes himself as the son of his father's only sister. This means the person he is describing is his aunt\u2019s child, making them Rahul\u2019s cousin."
+        "answer": "C",
+        "reasoning": "Rajesh states that he is the son of his father's only sibling. This means the person he is referring to is his father's sibling's child, making them cousins. Therefore, the correct relation is 'Cousin'."
     },
     {
         "answer": "D",
-        "reasoning": "The pattern follows groups of three letters followed by a number. Each group starts with the next set of three consecutive letters in the alphabet, and the number increments by 1 for each subsequent group. The correct continuation after JKL4 should be MNO5."
+        "reasoning": "Statement I implies there's overlap between dogs and cats but doesn't confirm any specific relationship for all members. Statement II links all cats to birds. Statement III indicates some birds are fish. Conclusion I suggests some fish are cats, which isn't supported since we can't infer this reverse relationship. Conclusion II proposes some birds are dogs, which also lacks support. Thus, neither conclusion logically follows."
     },
     {
-        "answer": "B",
-        "reasoning": "Rahul states he is the son of his father's only sibling, meaning this sibling is his uncle or aunt. Therefore, Rahul's cousin is the child of his uncle or aunt. Hence, Rahul's cousin is indeed his cousin, not brother, nephew, or uncle."
+        "answer": "C",
+        "reasoning": "A is second from the left, so the first position must be occupied by someone else. Since C is at one end, and given A's position, C must be on the far left. B is immediately to the right of A, placing them in positions 2 and 3 respectively. With D not next to B, D cannot be in position 4. Therefore, E must be in position 4, leaving D for position 5. Thus, C is third from the left."
     },
     {
-        "answer": "B",
-        "reasoning": "From Statement I, since all books are pens, it directly implies that some books are pens (Conclusion II). However, Statement II does not provide any direct link between pencils and books, thus Conclusion I cannot be inferred."
-    }
+        "answer": "C",
+        "reasoning": "Rahul's mother has only one child, which is Rahul himself. The man claims to be the brother of Rahul's mother's only child, meaning he is Rahul's brother."
+    },
+    {
+        "answer": "A",
+        "reasoning": "From Statement I, since all cats are dogs, and Statement II says no dog is a bird, it logically follows that no cat can be a bird. However, Statement III does not provide any direct link between fish and dogs, so Conclusion II cannot be inferred. Therefore, only Conclusion I follows."
+    },
+    null,
+    null,
+    null,
+    {
+        "answer": "A",
+        "reasoning": "Initially, A sits next to B but not C, and D sits next to both C and E. This implies the initial arrangement could be C-D-E-B-A or A-B-E-D-C. After swapping B and E, the arrangement becomes A-E-D-B-C or C-D-E-A-B. In both cases, C is between A and D."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "Statement I suggests some overlap between cats and dogs but does not imply all cats are dogs. Statement II confirms dogs are mammals. Conclusion I logically follows since if some cats are dogs and all dogs are mammals, then some mammals must be cats. However, Conclusion II cannot be inferred directly from the given statements."
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+        "answer": "C",
+        "reasoning": "Initially, the seating order is E-A-B-C-D-F. Moving two seats to the right changes it to D-F-E-B-C-A. Thus, C sits between B and F."
+    },
+    null
 ]

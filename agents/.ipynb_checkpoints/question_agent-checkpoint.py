@@ -57,11 +57,24 @@ class QuestioningAgent(object):
     ) -> Tuple[str, str]:
         """Generate an MCQ based question on given topic with specified difficulty"""
 
+        # sys_prompt = (
+        #     "You generate MCQ questions. You MUST reply with exactly one valid JSON object and nothing else. "
+        #     "CRITICAL: Every string value must be on a single line — never put a newline or line break inside a JSON string. "
+        #     "Do not output markdown, code blocks, or any text before or after the JSON."
+        # )
         sys_prompt = (
-            "You generate MCQ questions. You MUST reply with exactly one valid JSON object and nothing else. "
-            "CRITICAL: Every string value must be on a single line — never put a newline or line break inside a JSON string. "
-            "Do not output markdown, code blocks, or any text before or after the JSON."
-        )
+                "You are a competitive reasoning expert. "
+                "You generate logically correct MCQ questions. "
+                "Before producing output, internally verify that: "
+                "1) The question is logically sound. "
+                "2) The correct answer is factually and logically accurate. "
+                "3) The explanation matches the answer key. "
+                "4) No contradictions exist. "
+                "5) Exactly four options exist and labels A), B), C), D) appear exactly once each. "
+                "You MUST reply with exactly one valid JSON object and nothing else. "
+                "Every string must be on a single line. No newlines inside JSON strings. "
+                "No markdown. No extra commentary."
+            )
 
         tmpl = (
             "Topic: {0}\n"
