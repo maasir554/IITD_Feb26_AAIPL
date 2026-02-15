@@ -1,0 +1,567 @@
+[
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "The letters A, P, R, X, S, and Z are arranged in rows. S and Z are positioned in the middle. A and P are at the ends. R is seated to the left of A. Who is seated to the right of P?",
+        "choices": [
+            "A) A",
+            "B) X",
+            "C) S",
+            "D) Z"
+        ],
+        "answer": "B",
+        "explanation": ""
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "A, B, C, D, and E are all on a bench. A is seated beside B, while C is next to D. E, who is on the left end of the bench, is not seated close to D. C is in the second position from the right. B and E are seated to the right of A. A and C are sitting beside each other. A is positioned between B and D. A is seated:",
+        "choices": [
+            "A) Between B & C",
+            "B) Between C & D",
+            "C) Between E & D",
+            "D) Between C & E"
+        ],
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "F is immediately to the right of E. E is in the fourth position to the right of G. C is sitting next to both B and D. The person to the third position on the left of D is at one of the ends. What is the current location of A?",
+        "choices": [
+            "A) Between the letters E and D",
+            "B) Radical left",
+            "C) Centre",
+            "D) Extremely correct"
+        ],
+        "answer": "D",
+        "explanation": ""
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "F is immediately to the right of E. E is in the fourth position to the right of G. C is sitting next to both B and D. The person to the third position on the left of D is at one of the ends. Who is situated next to B?",
+        "choices": [
+            "A) C and D",
+            "B) C and G",
+            "C) G and F",
+            "D) C and E"
+        ],
+        "answer": "B",
+        "explanation": ""
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "F is immediately to the right of E. E is in the fourth position to the right of G. C is sitting next to both B and D. The person to the third position on the left of D is at one of the ends. Which of the following statements is not true?",
+        "choices": [
+            "A) D is just to the left of A",
+            "B) One of the endpoints is B",
+            "C) C is directly to the left of B",
+            "D) F is the second to the right of D"
+        ],
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "F is immediately to the right of E. E is in the fourth position to the right of G. C is sitting next to both B and D. The person to the third position on the left of D is at one of the ends. To the left of C, who is standing?",
+        "choices": [
+            "A) Only B",
+            "B) B and D",
+            "C) G and B",
+            "D) D, E, F and A"
+        ],
+        "answer": "C",
+        "explanation": ""
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are five men named A, B, C, D, and E facing south and five ladies named M, N, O, P, and Q facing north in a line parallel to the first line. Q is situated across from B and to the left of D. C and N are positioned on opposite sides of the diagonal. E is directly facing O, who is to the right of M. P, on the left of Q, is on the opposite side of D. M is positioned at one end of the line. If O and P, A and E, and B and Q exchange positions, who will be the second person to the right of the person opposite to the second person to the right of P?",
+        "choices": [
+            "A) D",
+            "B) A",
+            "C) E",
+            "D) O"
+        ],
+        "answer": "B",
+        "explanation": ""
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "There are five men named A, B, C, D, and E facing south and five ladies named M, N, O, P, and Q facing north in a line parallel to the first line. Q is situated across from B and to the left of D. C and N are positioned on opposite sides of the diagonal. E is directly facing O, who is to the right of M. P, on the left of Q, is on the opposite side of D. M is positioned at one end of the line. If B substitutes for E, E replaces Q, and Q takes the spot of B, who will be situated second to the left of the individual opposite O?",
+        "choices": [
+            "A) Q",
+            "B) P",
+            "C) E",
+            "D) D"
+        ],
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rajesh introduces a woman to his friend by saying, “She is the daughter of my father’s only son.” If Rajesh has no siblings, how is the woman related to Rajesh?",
+        "choices": [
+            "A) Sister",
+            "B) Niece",
+            "C) Daughter",
+            "D) Cousin"
+        ],
+        "answer": "C",
+        "explanation": ""
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Meena pointed to a man and said, “He is the son of my grandfather’s only son.” How is the man related to Meena?",
+        "choices": [
+            "A) Brother",
+            "B) Uncle",
+            "C) Cousin",
+            "D) Father"
+        ],
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Ravi said, “The woman at the counter is my mother’s husband’s sister.” How is the woman related to Ravi?",
+        "choices": [
+            "A) Aunt",
+            "B) Mother",
+            "C) Sister-in-law",
+            "D) Grandmother"
+        ],
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Amit said, “The boy in the red shirt is my father’s only grandson.” Amit has a son named Priyansh. How is the boy related to Amit?",
+        "choices": [
+            "A) Son",
+            "B) Nephew",
+            "C) Brother",
+            "D) Cousin"
+        ],
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Priya says, “That man is the husband of my mother’s sister.” How is the man related to Priya?",
+        "choices": [
+            "A) Maternal Uncle",
+            "B) Brother-in-law",
+            "C) Father",
+            "D) Cousin"
+        ],
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Vikas introduces a man by saying, “He is my father’s wife’s son.” If Vikas is the only child, how is the man related to Vikas?",
+        "choices": [
+            "A) Brother",
+            "B) Father",
+            "C) Self",
+            "D) Cousin"
+        ],
+        "answer": "C",
+        "explanation": ""
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Arjun says, “She is the wife of my mother’s son.” How is the woman related to Arjun?",
+        "choices": [
+            "A) Sister-in-law",
+            "B) Sister",
+            "C) Aunt",
+            "D) Cousin"
+        ],
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Sita said, “The man in the picture is my husband’s father’s only son.” How is the man related to Sita?",
+        "choices": [
+            "A) Father-in-law",
+            "B) Husband",
+            "C) Brother-in-law",
+            "D) Uncle"
+        ],
+        "answer": "B",
+        "explanation": ""
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Neha points to a girl and says, “She is the only daughter of my father’s father.” How is the girl related to Neha?",
+        "choices": [
+            "A) Aunt",
+            "B) Mother",
+            "C) Sister",
+            "D) Cousin"
+        ],
+        "answer": "A",
+        "explanation": ""
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All books are diary\nStatement II: Some diaries are notebooks\nStatement III: All notebooks are notepads\nConclusion I: Some notepads are diary\nConclusion II: Some notepads are books",
+        "choices": [
+            "A) If only conclusion I follow",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "A",
+        "explanation": "Diaries overlap notebooks and notebooks ⊆ notepads, so some notepads are diary."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some gold are platinum\nStatement II: Some platinum are silver\nStatement III: Some silver are zinc\nConclusion I: Some gold are silver\nConclusion II: Some zinc are platinum",
+        "choices": [
+            "A) If only conclusion I follow",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "D",
+        "explanation": "No definite chain guarantees gold-silver or zinc-platinum."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Only a few rivers are lakes\nStatement II: All rivers are ocean\nStatement III: All oceans are stream\nConclusion I: All stream being lakes is a possibility\nConclusion II: At least some oceans are rivers",
+        "choices": [
+            "A) If only conclusion I follow",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "All rivers are ocean ensures some oceans are rivers. I is not definite."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Only biscuits are chocolate\nStatement II: Only few biscuits are snacks\nStatement III: All snacks are beverages\nConclusion I: Some biscuits are not snacks is a possibility\nConclusion II: Some chocolates are snacks is a possibility",
+        "choices": [
+            "A) If only conclusion I follow",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "B",
+        "explanation": "Chocolate ⊆ biscuits and some biscuits are snacks, so possibility exists."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some mobiles are telephone\nStatement II: No cordless is mobile.\nStatement III: Some tablets are mobiles\nConclusion I: No mobile is cordless\nConclusion II: All telephone being tablets is a possibility",
+        "choices": [
+            "A) If only conclusion I follow",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "C",
+        "explanation": "No cordless is mobile gives I. II is a valid possibility."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some Gmail is yahoo\nStatement II: No yahoo is Instagram\nStatement III: All Instagram is twitter\nConclusion I: Some twitter being Gmail is a possibility\nConclusion II: Some yahoo can never be Instagram",
+        "choices": [
+            "A) If only conclusion I follow",
+            "B) If only conclusion II follows",
+            "C) If conclusion I and II both follow",
+            "D) If neither conclusion I nor conclusion II follows"
+        ],
+        "answer": "C",
+        "explanation": "No yahoo is Instagram proves II. I is a valid possibility."
+    },
+
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some winter are summer.\nStatement II: All spring are summer.\nStatement III: Some summer are autumn.\nConclusion I: No autumn is winter\nConclusion II: All autumns being winter is a possibility\nConclusion III: Some autumn is winter",
+        "choices": [
+            "A) Only conclusion I follow",
+            "B) Both conclusion I and III follow",
+            "C) Either conclusion I and III follow and conclusion II definitely follows",
+            "D) All conclusion I, II & III follow"
+        ],
+        "answer": "C",
+        "explanation": "I and III are complementary; II is a valid possibility."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All plates are cups\nStatement II: All cups are spoons\nStatement III: Some spoons are forks\nStatement IV: All forks are bowl\nConclusion I: All bowl are plates\nConclusion II: At least some spoons are bowl\nConclusion III: All cups are not plates\nConclusion IV: All plates being spoons is a possibility",
+        "choices": [
+            "A) All conclusion follows",
+            "B) Only conclusion II and IV follow",
+            "C) Only conclusion I follow",
+            "D) Only conclusion II follows"
+        ],
+        "answer": "D",
+        "explanation": "Some spoons are forks and forks ⊆ bowl ensures II only."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All mobiles are laptops\nStatement II: All laptops are computer\nStatement III: Some computers are tablets\nStatement IV: All tablets are palmtop\nConclusion I: All palmtop are laptops\nConclusion II: At least some computers are palmtop\nConclusion III: All laptops are not mobiles\nConclusion IV: All mobiles being computers is a possibility",
+        "choices": [
+            "A) Both conclusion II and IV follow",
+            "B) Only conclusion I follows",
+            "C) Only conclusion IV follow",
+            "D) Only conclusion III follow"
+        ],
+        "answer": "A",
+        "explanation": "Some computers are tablets and tablets ⊆ palmtop gives II. IV is valid."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some roses are sunflower\nStatement II: Some sunflower are marigold\nStatement III: All marigold are lilies\nStatement IV: No rose is tulip\nConclusion I: Some lilies are sunflower\nConclusion II: Some lilies are roses\nConclusion III: Some marigold are tulip\nConclusion IV: No marigold is tulip",
+        "choices": [
+            "A) Only conclusion I follow",
+            "B) Either conclusion IV and III follow",
+            "C) Both options (1) and (2)",
+            "D) Cannot be determined"
+        ],
+        "answer": "C",
+        "explanation": "I follows. III and IV are complementary; hence option (3)."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: No P is X\nStatement II: All X are Y\nStatement III: Some Y are Z\nConclusion I: No P is Z\nConclusion II: No Y is a X\nConclusion III: Some Y is X is a possibility\nConclusion IV: At least some Z are P",
+        "choices": [
+            "A) Either conclusion I or IV follow",
+            "B) Either conclusion I or II follow",
+            "C) Either conclusion III or IV follow",
+            "D) Either conclusion II or III follow"
+        ],
+        "answer": "A",
+        "explanation": "I and IV are complementary conclusions."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: Some sketchpen are pencil\nStatement II: All the marker are pencil\nStatement III: All the pens are sketchpen\nConclusion I: Some sketchpen are marker\nConclusion II: No pen is pencil\nConclusion III: Some marker is sketchpen",
+        "choices": [
+            "A) Only conclusion I follow",
+            "B) Only conclusion II follow",
+            "C) Only conclusion III follow",
+            "D) Both conclusion I and II follow"
+        ],
+        "answer": "D",
+        "explanation": "No conclusion is definite; hence none of the above."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All the white are grey\nStatement II: All the black are grey\nStatement III: Some purple are black\nConclusion I: Some white are black\nConclusion II: Some grey are white\nConclusion III: Some grey are purple",
+        "choices": [
+            "A) Either conclusion III or I follow",
+            "B) Only conclusion II follow",
+            "C) Both conclusion I and II follow",
+            "D) Either conclusion I or II follow"
+        ],
+        "answer": "D",
+        "explanation": "II follows; I does not. III is valid; hence option representing none fits original answer."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All vegetables are fruits\nStatement II: Some sweets are fruits\nConclusion I: All vegetables are sweets\nConclusion II: All sweets are vegetables\nConclusion III: Some fruits are sweets",
+        "choices": [
+            "A) Only conclusion I follow",
+            "B) Only conclusion III follow",
+            "C) Only conclusion II follow",
+            "D) All conclusions I, II & III follow"
+        ],
+        "answer": "B",
+        "explanation": "Some sweets are fruits implies some fruits are sweets."
+    },
+    {
+        "topic": "Syllogisms",
+        "question": "Statement I: All pillows are cushions\nStatement II: Some cushions are bedsheet\nStatement III: All bedsheet are blankets\nStatement IV: Some blankets are tablecover\nConclusion I: Some blankets are cushions\nConclusion II: Some blankets are pillows\nConclusion III: Some tablecover is cushions",
+        "choices": [
+            "A) Only conclusion I follow",
+            "B) Only conclusion II follow",
+            "C) Only conclusion III follow",
+            "D) Both conclusion I and II follow"
+        ],
+        "answer": "A",
+        "explanation": "Bedsheet ⊆ blankets and some cushions are bedsheet ensures I."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Identify the letter from the options that substitutes the question mark (?) in the following sequence: C, C, F, ?",
+        "choices": [
+            "A) Q",
+            "B) R",
+            "C) S",
+            "D) T"
+        ],
+        "answer": "B",
+        "explanation": "Pattern: C * 1 = C, C * 2 = F, F * 3 = R. Hence the next letter is R."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Identify the letter combination from the options that substitutes the question mark (?) in the following sequence: DFH, FHJ, HJL, JLN, ?",
+        "choices": [
+            "A) MOP",
+            "B) LNP",
+            "C) OQS",
+            "D) MPR"
+        ],
+        "answer": "B",
+        "explanation": "Each position in the triplet increases by +2 alphabetically (D→F→H→J→L, etc.). So the next term is LNP."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Which of the following letter-clusters will replace the question mark (?) in the given series? PK, GT, XC, OL, ?",
+        "choices": [
+            "A) GT",
+            "B) HS",
+            "C) EV",
+            "D) FU"
+        ],
+        "answer": "D",
+        "explanation": "The first letters increase by +8 cyclically and the second letters decrease by -8 cyclically. Hence FU."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Find the wrong term in the following series: MDH, NFE, OHC, PED, QBF",
+        "choices": [
+            "A) MDH",
+            "B) NFE",
+            "C) OHC",
+            "D) QBF"
+        ],
+        "answer": "C",
+        "explanation": "All terms follow a consistent alphabetical positional pattern except OHC. Hence it is the wrong term."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series: PEA, SJH, VOO, YTV, ?",
+        "choices": [
+            "A) YBC",
+            "B) CYB",
+            "C) BYC",
+            "D) CBY"
+        ],
+        "answer": "C",
+        "explanation": "Each letter in the triplet increases by +3 positions cyclically. The next term is BYC."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Fill the missing letter in the given series: A, A, B, F, ?",
+        "choices": [
+            "A) W",
+            "B) X",
+            "C) Y",
+            "D) Z"
+        ],
+        "answer": "B",
+        "explanation": "Alphabet positional multiplication pattern: 1 * 1 = 1(A), 1 * 2 = 2(B), 2 * 3 = 6(F), 6 * 4 = 24(X)."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Which one set of letters when sequentially placed in the gaps in the given letter series shall complete it? WX _ WW _ _ Y _ W _ WXX _ Y _ Y",
+        "choices": [
+            "A) WXXYXWW",
+            "B) YXYYWXX",
+            "C) YXXYWXY",
+            "D) WYXYWXY"
+        ],
+        "answer": "C",
+        "explanation": "Option C forms grouped patterns: WXY, WWXXYY, WWWXXXYYY."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "Which one set of letters when sequentially placed at the gaps in the given letter series shall complete it? p q _ p q _ _ r _ p q _ p q r _ _",
+        "choices": [
+            "A) p q q r s s t",
+            "B) r p p s r r t",
+            "C) r p q s r s t",
+            "D) t s r s q p r"
+        ],
+        "answer": "C",
+        "explanation": "The pattern forms: pqr, pq, pqrs, pqr, pqrst. Hence Option C."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "DFH, HJL, LNP, ___, TVX",
+        "choices": [
+            "A) DTV",
+            "B) NRT",
+            "C) PRT",
+            "D) RQS"
+        ],
+        "answer": "C",
+        "explanation": "Each letter increases by +2 positions. Following LNP, the next term becomes PRT."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "ACE, GIK, MOQ, ___, UYK",
+        "choices": [
+            "A) ACG",
+            "B) SUW",
+            "C) EIS",
+            "D) OPS"
+        ],
+        "answer": "B",
+        "explanation": "Each letter advances by +2 positions in sequence. Hence the missing term is SUW."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "BDF, FHJ, JLN, ___, PTV",
+        "choices": [
+            "A) NMN",
+            "B) NMO",
+            "C) NPR",
+            "D) OPM"
+        ],
+        "answer": "C",
+        "explanation": "Each letter advances by +4 positions (B→F→J→N, etc.). So the missing term is NPR."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "CMM, EOO, GQQ, _____, KUU",
+        "choices": [
+            "A) GRR",
+            "B) GSS",
+            "C) ISS",
+            "D) ITT"
+        ],
+        "answer": "C",
+        "explanation": "Each letter increases by +2 positions: C→E→G→I→K and M→O→Q→S→U. Hence ISS."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "ACE, BDF, CEG, DFH, ___",
+        "choices": [
+            "A) HMP",
+            "B) JOM",
+            "C) EGI",
+            "D) JMN"
+        ],
+        "answer": "C",
+        "explanation": "Each subsequent term shifts one step forward while maintaining alternate letter positions. Hence EGI."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "PQ, RS, UV, XY, __",
+        "choices": [
+            "A) AC",
+            "B) ZA",
+            "C) AB",
+            "D) BC"
+        ],
+        "answer": "B",
+        "explanation": "Each pair consists of consecutive letters. After XY, the next consecutive pair cyclically is ZA."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "KL, MN, OP, RS, __",
+        "choices": [
+            "A) VW",
+            "B) YZ",
+            "C) WX",
+            "D) XT"
+        ],
+        "answer": "A",
+        "explanation": "Each term contains consecutive letters with skipped letters between groups. Following RS, the next pair is VW."
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "answer": "B",
+        "reasoning": "Given that S and Z are in the middle and A and P are at the ends, we can deduce the arrangement: A _ _ _ _ P. Since S and Z are in the middle, they must occupy positions 2 and 5 respectively. With R to the left of A, R must be in position 6 (to the right of P), leaving X to be in position 4. Therefore, X is to the right of P."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Given A is beside B and C, and C is second from right, B and E are to the right of A. Since E is at the left end and not next to D, and A is between B and D, the order must be E-A-B-C-D. Thus, A is between B and C."
+    },
+    {
+        "answer": "B",
+        "reasoning": "E is 4th to the right of G, placing G far left. F is immediately to the right of E. C is next to both B and D, suggesting they form a group. The person 3rd left of D is at an end, likely G. This arrangement places A at the radical left."
+    },
+    {
+        "answer": "A",
+        "reasoning": "E is fourth to the right of G, placing them as G _ _ _ E. F is immediately to the right of E, so the sequence becomes G _ _ _ E F. C sits next to both B and D, implying BCD or DCB together. With D third to the left of someone at an end, if we place D next to C and B, and fit them into the remaining spots, C must sit between B and D. Thus, C and D are next to B."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Analyzing the positions: E is 4th right of G, so if G is at position 1, E is at 5. F is immediately right of E, placing F at 6. C sits next to B and D, implying they form a trio. With D's third-left position being at an end, if D is at 7, the sequence could be G-A-E-F-C-B-D. This makes D the second to the left of F, not right, making option D incorrect."
+    },
+    null,
+    {
+        "answer": "D",
+        "reasoning": "Initially, M is at one end, so M is at position 1. Since Q is across B and to the left of D, and P is to the left of Q, we place B opposite M, Q opposite N, D opposite O, and P opposite C. E faces O, so E is opposite N. After exchanges, P moves to where Q was, making D the second to the right of P's new position. The person opposite D is now C, and the second to the right of C is B. Hence, the answer is D."
+    },
+    null,
+    null,
+    null,
+    null,
+    {
+        "answer": "A",
+        "reasoning": "Amit's statement indicates he has no other sons except for Priyansh, making Priyansh his only grandson. Since the boy in the red shirt is described as Amit's father's only grandson, it implies this boy is Priyansh. Therefore, the boy is Amit's son."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "Vikas introduces the man as 'my father's wife's son'. Since Vikas is the only child, his father's wife is his mother. Therefore, the man is the son of Vikas's mother, making him Vikas's brother."
+    },
+    null,
+    null,
+    null,
+    {
+        "answer": "A",
+        "reasoning": "From Statement I, all books are diaries, but not necessarily vice versa. From Statement II, some diaries are notebooks, implying overlap but not complete inclusion. From Statement III, all notebooks are notepads. Conclusion I logically follows because if some diaries are notebooks and all notebooks are notepads, some notepads must be diaries. Conclusion II does not follow since it's not guaranteed that any books are notebooks."
+    },
+    null,
+    {
+        "answer": "D",
+        "reasoning": "Statement I indicates that not all rivers are lakes, contradicting Conclusion I. Statement II says all rivers are oceans, and Statement III states all oceans are streams. However, this does not imply any overlap between oceans and rivers directly, making Conclusion II uncertain. Thus, neither conclusion logically follows."
+    },
+    null,
+    null,
+    null,
+    null,
+    {
+        "answer": "B",
+        "reasoning": "From the statements, we can deduce that all plates are cups, all cups are spoons, and all forks are bowls. Conclusion I does not follow because there's no direct link between bowls and plates. Conclusion II follows as some spoons being forks means they are also bowls. Conclusion III is incorrect since all plates are cups, contradicting it. Conclusion IV is possible as plates could be a subset of spoons. Hence, only conclusions II and IV follow."
+    },
+    null,
+    {
+        "answer": "B",
+        "reasoning": "From Statement I and III, some lilies can be sunflowers, but it's not guaranteed, so Conclusion I may not necessarily follow. From Statements I and III, there's no direct link between lilies and roses, so Conclusion II does not follow. From Statements III and IV, marigolds cannot be tulips, so Conclusion III is false and Conclusion IV must be true."
+    },
+    null,
+    null,
+    null,
+    null,
+    {
+        "answer": "A",
+        "reasoning": "From Statement I, we know all pillows are cushions but not vice versa. From Statement II, some cushions are bedsheet, implying overlap between cushions and bedsheet. From Statement III, all bedsheet are blankets, so some blankets must be cushions due to the overlap. Statement IV does not provide enough information to confirm any direct relationship between tablecover and other items. Thus, Conclusion I follows directly from the given statements, while Conclusions II and III do not."
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+        "answer": "C",
+        "reasoning": "The pattern 'p q' repeats with an additional letter inserted each time. The sequence starts with 'p q', followed by 'p q r'. Analyzing the choices, only option C fits the pattern: p q r p q r p q r p q r p q r."
+    },
+    {
+        "answer": "C",
+        "reasoning": "The pattern involves moving two letters forward in the alphabet for each subsequent letter in the sequence. From DFH to HJL, each letter advances by two positions. Following this, LNP should lead to PRT, matching option C."
+    },
+    null,
+    {
+        "answer": "C",
+        "reasoning": "The pattern involves moving two letters forward in the alphabet each time. B to D (+2), D to F (+2), F to H (+2), and so on. Following this, J to L (+2), L to N (+2), N to P (+2), P to R (+2). Thus, the missing sequence should be NPR."
+    },
+    {
+        "answer": "D",
+        "reasoning": "The sequence follows a pattern where each group increases alphabetically by two letters. Starting from CMM, adding 2 to each letter results in EOO, then GQQ. Continuing this pattern, the next group should be ISS (adding 2 to GQQ), followed by KUU. Therefore, the missing term should be ITT, as it fits the increasing pattern correctly."
+    },
+    {
+        "answer": "C",
+        "reasoning": "The pattern involves shifting letters in a sequence. In ACE, BDF, CEG, DFH, each subsequent group shifts the first letter forward by one, the second letter forward by two, and the third letter forward by three. Thus, after DFH, the next group would be EGI."
+    },
+    {
+        "answer": "C",
+        "reasoning": "The pattern involves consecutive pairs of letters in the alphabet. PQ, RS, UV, XY follow this sequence. The next pair should be AB, as it continues the order after XY."
+    },
+    {
+        "answer": "A",
+        "reasoning": "The pattern follows consecutive pairs of letters in the alphabet. Each pair skips two letters between the first and second pair (KL -> MN), and then skips three letters for subsequent pairs (MN -> OP, OP -> RS). Following this, RS should skip three more letters to reach VW. Thus, the correct continuation is VW."
+    }
+]

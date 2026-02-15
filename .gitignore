@@ -1,0 +1,6 @@
+hf_models
+/outputs/final/*
+/outputs/checkpoint-10/*
+unsloth_compiled_cache/*
+/Training/*
+

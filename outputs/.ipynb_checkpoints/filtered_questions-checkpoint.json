@@ -1,0 +1,62 @@
+[
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a linear arrangement, six friends A, B, C, D, E, and F are seated facing North. B is to the immediate left of D, who is not at either end. A is second to the right of B. C is at one end, and E is to the immediate right of F. If C and F swap places, who will be to the immediate left of D?",
+        "choices": [
+            "A) A) F",
+            "B) B) C",
+            "C) C) A",
+            "D) D) E"
+        ],
+        "answer": "B",
+        "explanation": "Initial arrangement: C-B-D-A-E-F. After swap, it becomes F-B-D-A-E-C. Hence, C is immediately left of D."
+    },
+    {
+        "topic": "Mixed Series (Alphanumeric)",
+        "question": "AB2, CD4, EF6, GH8, _____",
+        "choices": [
+            "A) A) IJ10",
+            "B) B) HI10",
+            "C) C) IJ9",
+            "D) D) HI9"
+        ],
+        "answer": "A",
+        "explanation": "The pattern involves alternating letters increasing by one position and numbers increasing by 2 each time."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Raj points to a man and says, \"He is the only son of my mother's only sister.\" How is the man related to Raj?",
+        "choices": [
+            "A) Uncle",
+            "B) Brother",
+            "C) Cousin",
+            "D) Nephew"
+        ],
+        "answer": "C",
+        "explanation": "Raj's mother's only sister is his aunt; hence, the only son of Raj's aunt is his cousin."
+    },
+    {
+        "topic": "Family tree logic",
+        "question": "Rahul says, \u201cHe is the brother of my father\u2019s only son.\u201d How is the person Rahul is referring to related to him?",
+        "choices": [
+            "A) A) Brother",
+            "B) B) Nephew",
+            "C) C) Cousin",
+            "D) D) Uncle"
+        ],
+        "answer": "C",
+        "explanation": "Rahul's father's only son is Rahul himself. So, the brother of Rahul is being referred to. This makes the person Rahul's cousin."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Five friends A, B, C, D, E sit in a row facing north. B sits next to neither A nor C. D sits to the immediate left of E. If A and C swap places and then B and D swap places, who is sitting second to the right of the person originally sitting between A and C?",
+        "choices": [
+            "A) A) B",
+            "B) B) C",
+            "C) C) E",
+            "D) D) D"
+        ],
+        "answer": "C",
+        "explanation": "Initial arrangement: A-B-D-E-C. After swaps, it becomes C-D-B-E-A. Originally, B was between A and C. Second to B's right in new arrangement is E."
+    }
+]
