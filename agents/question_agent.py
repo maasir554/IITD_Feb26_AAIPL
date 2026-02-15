@@ -58,42 +58,29 @@ class QuestioningAgent(object):
         """Generate an MCQ based question on given topic with specified difficulty"""
 
         sys_prompt = (
-            "You are an expert competitive reasoning question generator. "
-            "Your job is to generate logically valid, contradiction-free multiple choice questions. "
-            "Before producing the final answer, you MUST internally verify the following: "
-            "1) The question is logically sound and unambiguous. "
-            "2) The correct answer is factually and logically correct. "
-            "3) The explanation matches the answer key exactly. "
-    "4) No contradictions exist in reasoning. "
-    "5) Exactly four options exist. "
-    "6) Option labels A), B), C), and D) appear exactly once each. "
-    "7) No option text contains duplicate labels like 'A) A)'. "
-    "8) All constraints of the question are satisfied. "
-    "You MUST reply with exactly one valid JSON object and nothing else. "
-    "Every string value must be on a single line. "
-    "No newlines inside JSON strings. "
-    "No markdown. "
-    "No code blocks. "
-    "No commentary before or after the JSON."
-    )
+            "You generate MCQ questions. You MUST reply with exactly one valid JSON object and nothing else. "
+            "CRITICAL: Every string value must be on a single line — never put a newline or line break inside a JSON string. "
+            "Do not output markdown, code blocks, or any text before or after the JSON."
+        )
 
         tmpl = (
-    "Topic: {0}\n"
-    "Generate one logically correct multiple-choice question on this topic.\n"
-    "Correct answer must be: {1}. Distractors must be: {2}.\n\n"
-    "STRICT RULES:\n"
-    "- Output ONLY one valid JSON object.\n"
-    "- All string values must be on ONE LINE (no newline characters inside quotes).\n"
-    "- Exactly 4 choices labeled once as A), B), C), D).\n"
-    "- Each label appears exactly once.\n"
-    "- Never repeat labels (never 'A) A)').\n"
-    "- 'answer' must be exactly one letter: A, B, C, or D.\n"
-    "- Explanation must logically prove why the correct option is correct.\n"
-    "- Explanation must be under 70 words.\n"
-    "- Verify logic before finalizing output.\n\n"
-    "Return strictly in this format:\n"
-    '{"topic":"...","question":"...","choices":["A) ...","B) ...","C) ...","D) ..."],"answer":"...","explanation":"..."}'
-    )
+            "Topic: {0}\n"
+            "Generate one multiple-choice question on this topic. Correct answer: {1}. Distractors: {2}.\n\n"
+            "RULES:\n"
+            "- Output ONLY a single valid JSON object, nothing else.\n"
+            "- All string values must be on ONE LINE (no newlines inside quotes). Use semicolons or commas to separate statements within a string.\n"
+            "- Choices: exactly 4, labeled A) B) C) D) (each label appears only once, e.g. \"A) ...\" not \"A) A) ...\").\n"
+            "- \"answer\": exactly one letter A, B, C, or D.\n"
+            "- \"explanation\": under 100 words.\n\n"
+            "Example of valid output:\n"
+            '{{"topic":"{3}","question":"If 2x + 3 = 11, what is x?","choices":["A) 3","B) 4","C) 5","D) 6"],"answer":"{1}","explanation":"Solving: 2x = 8, so x = 4."}}\n'
+            "{4}"
+        )
+        # Remove model's preferential bias for options
+        correct_option = random.choice(["A", "B", "C", "D"])
+        distractors = ", ".join(
+            [opt for opt in ["A", "B", "C", "D"] if opt != correct_option]
+        )
 
 
         if wicl:
